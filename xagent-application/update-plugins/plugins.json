@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ptp-demo",
+    "description": "xlink ptp demo plugin",
+    "releases": [
+      {
+        "version": "0.0.2",
+        "date": "Oct 12, 2017 10:00:35 PM",
+        "url": "xagent-ptp-demo-0.0.2.zip"
+      }
+    ]
+  }
+]

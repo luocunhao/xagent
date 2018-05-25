@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6b5f196-eb8d-4e06-b381-cc89bdef4dd3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/xagent-ptp-demo-0.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/midea-smart-mqtt-0.0.1-pg.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/xagent-api-0.0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/xagent_application_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_infiniteautomation_modbus4j_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xlink_xagent_xagent_ptp_demo_0_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xlink_xagent_xagent_ptp_wind_0_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-application/agent/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/domain/MacAddressIdMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/DeviceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/BusinessLogicProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/DatapointDataHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/ClientHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpPingReqHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/DataTransUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/StrUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-wind/xagent-ptp-wind.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/domain/MacSlaverIdMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/DeviceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/ZrConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/ZrPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/DemoClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/InitModbus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/QuartzManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/RequestQuartz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/StartQuartz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/WriteDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/DatapointDataHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/MasterReciver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/utils/DataTransUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xagent-ptp-zr/xagent-ptp-zr.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-application/plugins/xagent-ptp-karcher-0.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-application/plugins/xagent-ptp-obd-0.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c490.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DemoConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DemoPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/processor/DatapointDataHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/antrun/build-main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/codec/DemoDecoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/codec/DemoDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/codec/DemoEncoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/codec/DemoEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/codec/DemoMessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/main/DemoConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DatapointPayloadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoAuthPayloadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoHeaderMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoHeartBeatPayloadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoOfflinePayloadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/message/DemoPayloadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/processor/BusinessLogicProcessor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/processor/BusinessLogicProcessor$DemoProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/processor/DatapointDataHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/target/plugin-classes/xlink/xagent/ptp/demo/processor/DemoProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/assembly/assembly.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/datastruct/EasyIotDeviceCommandResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/datastruct/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/ERROR_CODE.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/Rest200StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/Rest400StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/Rest403StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/Rest404StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/Rest503StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/RestException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/exception/RestStatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/main/HaimanPluginMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/main/PtpConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/main/WebApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/manager/AccessTokenManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/manager/WebApiManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/DatapointSetReceviceHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/EasyIotHttpProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/RestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/URLMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/controller/EasyIotCallbackController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/processor/controller/EasyIotDeviceReportController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/utils/OKHttp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/utils/StringTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/src/test/java/org/xagent/ptp/easyiot/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-easyiot/target/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/lib/log4j/log4j-1.2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/lib/log4j/slf4j-api-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/lib/log4j/slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/lib/pool/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/lib/xagent-api-0.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/febb/main/FbeePtpConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/febb/utils/ByteTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/febb/utils/ByteUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/febb/utils/UrlTool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/codec/FbeeCodeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/codec/FbeeDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/codec/FbeeEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/codec/FbeeMessageTypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/main/FbeePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeeCommonMessag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeeHeaderMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeeHeartBeatMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeeLoginReplyMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeeMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/message/FbeePayLoadMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/processor/DatapointDataHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/processor/FbeeProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/xagent/ptp/fbee/core/singleton/FbeePtpChannelManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/java/xlink/xagent/ptp/fbee/core/singleton/UserPwdManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/resources/fbee.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/assembly/assembly.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/main/HttpServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/main/KarcherPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/main/KarcherPtpConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/main/WebApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/task/IcCardOrderTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/utils/ByteTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/karcher/utils/OKHttp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/DatapointDataHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/DeviceStatusManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/KarcherLogicManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/PtpChannelInfoManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/TimeTranslationUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/business/manager/WebApiManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/core/datastruct/KarcherIcCardAuthResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/core/datastruct/OkHttpResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/core/datastruct/OrderType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/core/datastruct/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/core/datastruct/Result.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/KarcherCodeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/KarcherMessageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/KarcherWashingCarDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/KarcherWashingCarEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherAccountAuthAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherAccountAuthMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherAccountAuthNoPswdMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherAccountIccardAuthMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherActionMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherHeaderMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherHeartBeatAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherHeartBeatMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherMessageFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherPayLoadMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherPreSettlementAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherPreSettlementMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherReadSettingAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherReadSettingMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherSettlementAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherSettlementMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherTimeSyncAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherTimeSyncMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherUploadStateAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/codec/karcher/message/KarcherUploadStateMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/HttpServerHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/HttpServerInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/URLMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/controller/AccountAuthController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/controller/ActionController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/controller/OrderStatusController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/controller/RestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/java/xlink/netty/handler/http/controller/RestException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/main/resources/karcher.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/src/test/java/Test/Test1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/antrun/build-main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/main/HttpServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/main/KarcherPlugin$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/main/KarcherPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/main/KarcherPtpConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/main/WebApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/task/IcCardOrderTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/utils/ByteTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/karcher/utils/OKHttp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/DatapointDataHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/DeviceStatusManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$AccountAuthHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$AccountAuthNotPwdHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$ActionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$HeartBeatHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$PreSettlementHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$ReadingSettingHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$SettlementHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$TimeSyncHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager$UploadStateHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/KarcherLogicManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/PtpChannelInfoManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/TimeTranslationUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/business/manager/WebApiManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/core/datastruct/KarcherIcCardAuthResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/core/datastruct/OkHttpResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/core/datastruct/OrderType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/core/datastruct/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/core/datastruct/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherCodeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherMessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherWashingCarDecoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherWashingCarDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherWashingCarEncoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/KarcherWashingCarEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherAccountAuthAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherAccountAuthMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherAccountAuthNoPswdMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherAccountIccardAuthMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherActionMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherHeaderMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherHeartBeatAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherHeartBeatMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherMessageFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherPayLoadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherPreSettlementAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherPreSettlementMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherReadSettingAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherReadSettingMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherSettlementAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherSettlementMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherTimeSyncAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherTimeSyncMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherUploadStateAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/codec/karcher/message/KarcherUploadStateMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/HttpServerHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/HttpServerInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/URLMapping.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/controller/AccountAuthController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/controller/ActionController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/controller/OrderStatusController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/controller/RestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/classes/xlink/netty/handler/http/controller/RestException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/META-INF/maven/xlink.xagent/xagent-ptp-karcher/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/META-INF/maven/xlink.xagent/xagent-ptp-karcher/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/main/HttpServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/main/KarcherPlugin$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/main/KarcherPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/main/KarcherPtpConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/main/WebApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/task/IcCardOrderTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/utils/ByteTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/karcher/utils/OKHttp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/DatapointDataHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/DeviceStatusManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$AccountAuthHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$AccountAuthNotPwdHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$ActionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$HeartBeatHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$PreSettlementHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$ReadingSettingHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$SettlementHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$TimeSyncHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager$UploadStateHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/KarcherLogicManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/PtpChannelInfoManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/TimeTranslationUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/business/manager/WebApiManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/core/datastruct/KarcherIcCardAuthResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/core/datastruct/OkHttpResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/core/datastruct/OrderType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/core/datastruct/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/core/datastruct/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherCodeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherMessageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherWashingCarDecoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherWashingCarDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherWashingCarEncoder$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/KarcherWashingCarEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherAccountAuthAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherAccountAuthMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherAccountAuthNoPswdMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherAccountIccardAuthMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherActionMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherHeaderMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherHeartBeatAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherHeartBeatMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherMessageFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherPayLoadMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherPreSettlementAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherPreSettlementMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherReadSettingAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherReadSettingMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherSettlementAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherSettlementMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherTimeSyncAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherTimeSyncMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherUploadStateAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/codec/karcher/message/KarcherUploadStateMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/HttpServerHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/HttpServerInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/URLMapping.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/controller/AccountAuthController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/controller/ActionController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/controller/OrderStatusController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/controller/RestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/plugin-classes/xlink/netty/handler/http/controller/RestException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/surefire-reports/TEST-Test.Test1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/surefire-reports/Test.Test1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/test-classes/Test/Test1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/xagent-ptp-karcher-0.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-karcher/target/xagent-ptp-karcher-0.0.1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/assembly/assembly.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/codec/HttpHeaderEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/codec/ObdDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/codec/ObdHttpObjectDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/codec/ObdHttpObjectEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/CheSafeCmdSendResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/CheSafeUploadDataResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/DeviceDataUpload.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/ObdHttpMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/datastruct/Result.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/ERROR_CODE.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/Rest200StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/Rest400StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/Rest403StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/Rest404StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/Rest503StatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/RestException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/exception/RestStatusException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/main/ObdPluginMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/main/PtpConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/main/WebApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/type/CheSafeCmdSendStatusType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/type/DatapointDefineType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/type/LocationSourceType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/DateFormatTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/MD5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/OBDMessageUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/OKHttp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/StringTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/WebApiManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/obd/utils/XlinkDatapointTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/processor/OBDDatapintDataReceived.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/processor/RestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/processor/URLMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/processor/controller/ObdDeviceDataUploadController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/main/java/xlink/xagent/ptp/processor/obdHttpProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/test/java/org/xagent/ptp/obd/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/test/java/org/xagent/ptp/obd/DeviceInfoMock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/test/java/org/xagent/ptp/obd/SignatureTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/test/java/org/xagent/ptp/obd/UploadDataTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/src/test/java/org/xagent/ptp/obd/XlinkApiTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-obd/target/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/ConnDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/ConnectAckEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/DataWrapperDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/DataWrapperEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/DemuxDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/DemuxEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/PingReqDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/PingResEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/SyncAckEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/codec/SyncDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/exception/FixedHeadPhaseError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptp/poly/exception/ProtocolTypeUnknownException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/AbstractMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/ConnAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/ConnectMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/FixedHeader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/PingReqMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/PingResMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/SyncAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/main/java/xlink/xagent/ptpt/poly/message/SyncMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xagent-ptp-poly/src/test/java/org/xagent/ptp/poly/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/DatapointSetListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/DatapointSyncListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/DeviceStateListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/IMqttActionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/MqttClientListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/Future/PublishMessageListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/client/MqttClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/client/MqttClientManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/client/MqttComms.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/config/MqttConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/XlinkCmOperator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/XlinkPublishMessageFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/Base64Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/ByteTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/CalendarUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/ContainerGetter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/LogHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/MD5Tool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/MqttTopicMatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/MqttUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/MyByteBuf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/NoProguard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/SHA1Tool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/StringTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/EightTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/FiveTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/FiveTupleList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/FourTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/FourTupleList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/SevenTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/SixTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/SixTupleList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/ThreeTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/ThreeTupleList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/TowTuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/TowTupleList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/core/utils/tuple/Tuple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/dataStructure/DatapointDataType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/dataStructure/XlinkCMDataPoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/exception/XlinkMqttException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/handler/MqttMessageProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/handler/PingReqHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/AsyncQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/DelayQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/LogicQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/Queue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/QueueType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/subclass/MqttConnAckAsyncQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/subclass/MqttReceiveLogicQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/subclass/MqttSendAsyncQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/subclass/MqttSendLogicQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/queue/subclass/PtpDeviceOnlineAsyncQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/thread/AsyncThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/thread/AsyncThreadPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/thread/LogicThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/thread/LogicThreadPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/thread/MqttTokenCheckThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/token/MqttCmMessageToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/token/MqttMessageToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/token/MqttToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/token/MqttTokenManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/token/MqttTokenType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/cn/xlink/cmmqttclient/type/XlinkMqttTopicType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/exception/CMMessageEncodeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/exception/CMMessageParseException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/exception/DatapointException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/ActivationMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/ActivationResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/AppNotifyEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/AppOfflineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/AppStateMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/AppStateOfflineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/AppStateOnlineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/CMMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointGetMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointGetResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointSetMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointSetResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DatapointSyncMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceLocationMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceLogMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceLogSwitchMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceNotifyEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceOfflineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceOnlineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceOnlineResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceStateMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceStateOfflineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceStateOnlineMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceTicketGetMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/DeviceTicketGetResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/GatewayModuleMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/GatewaySessionMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/GatewaySubDeviceMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/ProductionTestEndMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/ProductionTestStartMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/SubMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/SubResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/SubVerifyMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/SubVerifyResultMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/SysEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/struct/ActivationResultStruct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/struct/ActivationStruct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/struct/Datapoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/struct/DatapointDefine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/struct/DatapointSyncStruct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/sysevent/KickedOfflineEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/sysevent/ServerTimeEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/sysevent/ServerTimeResponseEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/sysevent/UpgradeCompleteEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/sysevent/UpgradeEventMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/ActivateRetCodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/AppStateType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/CMMessageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DatapointType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DeviceLogLevelType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DeviceLogType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DeviceSetResultType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DeviceStateType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/DeviceUpgradeRetCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/GetDeviceDatapointResultType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/KickedReasonType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/NotifyFromType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/NotifyMessageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/NotifyMsgEncodeType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/SubRetCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/java/xlink/cm/message/type/SysEventMessageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/main/resources/mqtt.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/test/java/cn/xlink/cmmqttclient/test/async/CompletableFutureTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xlink.cmmqttclient/src/test/java/cn/xlink/cmv5client/XlinkCmV5ClientTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xagent-api/pom.xml" afterPath="$PROJECT_DIR$/xagent-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xagent-application/agent/xlink/agent/main/XagentMain.java" afterPath="$PROJECT_DIR$/xagent-application/agent/xlink/agent/main/XagentMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/config/MqttConfig.java" afterPath="$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/config/MqttConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xagent-application/pom.xml" afterPath="$PROJECT_DIR$/xagent-application/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.classpath" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.classpath" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.gitignore" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.project" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.project" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/xagent-ptp-zr/.settings/org.eclipse.m2e.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/xagent-ptp-zr/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/demo协议说明" afterPath="$PROJECT_DIR$/xagent-ptp-zr/demo协议说明" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/README_DO_NOT_TOUCH_FILES.txt" afterPath="$PROJECT_DIR$/xagent-ptp-zr/derbyDB/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="$PROJECT_DIR$/xagent-ptp-zr/derbyDB/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="$PROJECT_DIR$/xagent-ptp-zr/derbyDB/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/derbyDB/service.properties" afterPath="$PROJECT_DIR$/xagent-ptp-zr/derbyDB/service.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/midea-smart-mqtt-0.0.1-pg.jar" afterPath="$PROJECT_DIR$/xagent-ptp-wind/lib/midea-smart-mqtt-0.0.1-pg.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.1.jar" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/xagent-api-0.0.1.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar" afterPath="$PROJECT_DIR$/xagent-ptp-wind/lib/xagent-api-0.0.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/xlink-xagent-biguiyuan-20180417.jar" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/xlink-xagent-biguiyuan-20180417.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/xlink-xagent-biguiyuan-20180423.jar" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/xlink-xagent-biguiyuan-20180423.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/xlink-xagent.jar" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/xlink-xagent.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/lib/碧桂园-xagent.zip" afterPath="$PROJECT_DIR$/xagent-ptp-zr/lib/碧桂园-xagent.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/assembly/assembly.xml" afterPath="$PROJECT_DIR$/xagent-ptp-wind/src/main/assembly/assembly.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/codec/DemoDecoder.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/codec/ZrDecoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/codec/DemoEncoder.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/codec/ZrEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/codec/DemoMessageType.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/codec/ZrMessageType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DatapointPayloadMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/DatapointPayloadMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoAuthPayloadMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrAuthPayloadMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoHeaderMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrHeaderMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoHeartBeatPayloadMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrHeartBeatPayloadMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoOfflinePayloadMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrOfflinePayloadMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/message/DemoPayloadMessage.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrPayloadMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/processor/BusinessLogicProcessor.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/BusinessLogicProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/processor/DemoProcessor.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/ZrProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/test/java/xlink/xagent/ptp/demo/test/DemoClient.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/test/java/xlink/xagent/ptp/zr/test/DemoClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-demo/src/test/java/xlink/xagent/ptp/demo/test/DeviceDerbyTest.java" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/test/java/xlink/xagent/ptp/zr/test/DeviceDerbyTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xagent-ptp-fbee/src/main/assembly/assembly.xml" afterPath="$PROJECT_DIR$/xagent-ptp-zr/src/main/assembly/assembly.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-application/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-api/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-ptp-karcher/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-ptp-demo/target/" />
+    <ignored path="$PROJECT_DIR$/xlink.cmmqttclient/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-Mqtt-Client/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-ptp-wind/target/" />
+    <ignored path="$PROJECT_DIR$/xagent-ptp-zr/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tes$XagentMain.coverage" NAME="XagentMain Coverage Results" MODIFIED="1526700856118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xlink.agent.main.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WindPlugin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatapointDataHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/DatapointDataHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assembly.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/assembly/assembly.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pluginManger</find>
+      <find>quartz</find>
+      <find>MqttPu</find>
+      <find>demo</find>
+      <find>datapointSync timestamp</find>
+      <find>zr</find>
+      <find>Demo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>zr</replace>
+      <replace>wind</replace>
+      <replace>Wind</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/xlink/cm/message/ActivationResultMessage.java" />
+        <option value="$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/xlink/cm/message/AppNotifyEventMessage.java" />
+        <option value="$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/xlink/cm/message/AppOfflineMessage.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-karcher/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/extensions/XagentApi.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/PtpServer.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/codec/DemoDecoder.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/IPtpDecoder.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/PtpServerStrategy.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/PtpCertificateType.class" />
+        <option value="$PROJECT_DIR$/xagent-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/PtpDatapointSetListener.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/processor/MasterReciver.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/QuartzManager.java" />
+        <option value="$PROJECT_DIR$/xagent-application/agent/xlink/agent/main/XagentMain.java" />
+        <option value="$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/core/JobRunShell.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/InitModbus.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/StartQuartz.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/domain/MacSlaverIdMap.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/utils/DataTransUtils.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/DemoClient.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/WriteDemo.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/xlink/ptp/wind/main/WindPlugin.java" />
+        <option value="$PROJECT_DIR$/xagent-application/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/dataStruture/XlinkDeviceDatapointType.class" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DemoPlugin.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DemoConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/processor/DatapointDataHandler.java" />
+        <option value="$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/config/MqttConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/modbus/RequestQuartz.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DeviceConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-zr/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/ZrConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/pom.xml" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/DeviceConfig.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/domain/MacAddressIdMap.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/DataTransUtils.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/StrUtil.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpClient.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpPingReqHandler.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/BusinessLogicProcessor.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindDecoder.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindEncoder.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindPlugin.java" />
+        <option value="$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/DatapointDataHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.5.2\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xagent-ptp-wind" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xagent-ptp-wind" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xagent-ptp-zr" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xagent-ptp-zr" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-2" />
+    <option name="y" value="49" />
+    <option name="width" value="1940" />
+    <option name="height" value="989" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/ideaworkspace" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SearchEverywhereHistoryKey" value="x&#9;FILE&#9;file://E:/ideagit/tes/xagent-application/agent/xlink/agent/main/XagentMain.java&#10;pl&#9;FILE&#9;file://E:/ideagit/tes/xagent-ptp-demo/src/main/java/xlink/xagent/ptp/demo/main/DemoPlugin.java&#10;Xagent&#9;FILE&#9;jar://E:/ideagit/tes/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/extensions/XagentApi.class" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideagit\tes\plugins" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideagit\tes\xagent-ptp-wind\src\main\assembly" />
+      <recent name="E:\ideagit\tes\xagent-ptp-wind\lib" />
+      <recent name="E:\ideagit\tes\plugins" />
+      <recent name="E:\ideagit\tes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.XagentMain">
+    <configuration name="DataTransUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="xlink.xagent.ptp.zr.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="xlink.xagent.ptp.zr.utils.DataTransUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xagent-ptp-zr" />
+      <envs />
+    </configuration>
+    <configuration name="DemoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="xlink.xagent.ptp.zr.modbus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="xlink.xagent.ptp.zr.modbus.DemoClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xagent-ptp-zr" />
+      <envs />
+    </configuration>
+    <configuration name="XagentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="xlink.agent.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="xlink.agent.main.XagentMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xagent-application" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.XagentMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DemoClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DataTransUtils" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.XagentMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DemoClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DataTransUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Hudson_Chi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b5f196-eb8d-4e06-b381-cc89bdef4dd3" name="Default" comment="" />
+      <created>1525871315845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525871315845</updated>
+      <workItem from="1525871317584" duration="260000" />
+      <workItem from="1525912442582" duration="693000" />
+      <workItem from="1525914374443" duration="4049000" />
+      <workItem from="1526353961685" duration="905000" />
+      <workItem from="1526440839521" duration="1270000" />
+      <workItem from="1526442165923" duration="16279000" />
+      <workItem from="1526519739959" duration="33000" />
+      <workItem from="1526537313320" duration="21260000" />
+      <workItem from="1526603127010" duration="21751000" />
+      <workItem from="1526699368998" duration="15508000" />
+      <workItem from="1526866650742" duration="11302000" />
+      <workItem from="1526950083482" duration="2010000" />
+      <workItem from="1526953848596" duration="19000" />
+      <workItem from="1526970663894" duration="763000" />
+      <workItem from="1526980598016" duration="659000" />
+      <workItem from="1527037708018" duration="5431000" />
+      <workItem from="1527047930812" duration="6376000" />
+      <workItem from="1527127263631" duration="9578000" />
+      <workItem from="1527162855259" duration="3354000" />
+      <workItem from="1527166960380" duration="333000" />
+      <workItem from="1527216043711" duration="4437000" />
+      <workItem from="1527228310080" duration="1637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127907000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="49" width="1940" height="989" extended-state="1" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.49209487" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23239437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27393618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292553" sideWeight="0.49209487" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44014084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31120783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29225352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292553" sideWeight="0.5079051" order="4" side_tool="true" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34494016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2959739" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27529925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/BusinessLogicProcessor.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/DatapointDataHandler.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="60" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/main/HaimanPluginMain.java" />
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/main/PtpConfig.java" />
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-easyiot/src/main/java/org/xagent/ptp/easyiot/App.java" />
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/WriteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/xlink/ptp/wind/main/WindPlugin.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/dataStruture/XlinkDeviceDatapointType.class" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.3/modbus4j-3.0.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1092">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-api/src/main/java/xlink/cm/agent/extensions/XagentApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/mqtt/xlink/cm/message/DatapointSetResultMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/message/XlinkPublishMessageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/ZrProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/ptp/PtpDatapointSetListener.class" />
+    <entry file="jar://$PROJECT_DIR$/xagent-ptp-demo/lib/xagent-api-0.0.2.jar!/xlink/cm/agent/extensions/XagentApi.class" />
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/BusinessLogicProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="42" column="68" lean-forward="true" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/DemoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/infiniteautomation/modbus4j/3.0.3/modbus4j-3.0.3.jar!/com/serotonin/modbus4j/ModbusMaster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/core/xlink/cmagent/extention/XagentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/ZrPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/processor/DatapointDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/type/XlinkMqttTopicType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-application/mqtt/xlink/mqtt/client/config/MqttConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/DeviceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/modbus/RequestQuartz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="138" column="59" lean-forward="false" selection-start-line="138" selection-start-column="59" selection-end-line="138" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/codec/ZrDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/message/ZrAuthPayloadMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/codec/ZrEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/java/xlink/xagent/ptp/zr/main/ZrConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5365">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/domain/MacAddressIdMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/DeviceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3758">
+          <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/DataTransUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/utils/StrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2968">
+          <caret line="152" column="1" lean-forward="false" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1139#1140#0" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1218#1219#0" expanded="false" />
+            <element signature="e#1249#1250#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+            <element signature="e#1351#1352#0" expanded="false" />
+            <element signature="e#1399#1400#0" expanded="false" />
+            <element signature="e#1429#1430#0" expanded="false" />
+            <element signature="e#1471#1472#0" expanded="false" />
+            <element signature="e#1502#1503#0" expanded="false" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1571#1572#0" expanded="false" />
+            <element signature="e#1623#1624#0" expanded="false" />
+            <element signature="e#1668#1669#0" expanded="false" />
+            <element signature="e#1699#1700#0" expanded="false" />
+            <element signature="e#1726#1727#0" expanded="false" />
+            <element signature="e#1766#1767#0" expanded="false" />
+            <element signature="e#1798#1799#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1853#1854#0" expanded="false" />
+            <element signature="e#1890#1891#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
+            <element signature="e#1954#1955#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2066#2067#0" expanded="false" />
+            <element signature="e#2101#2102#0" expanded="false" />
+            <element signature="e#2134#2135#0" expanded="false" />
+            <element signature="e#2183#2184#0" expanded="false" />
+            <element signature="e#2220#2221#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpPingReqHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/tcp/TcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="52" column="59" lean-forward="false" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/BusinessLogicProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec.java" />
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/codec/WindEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/main/WindPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/java/processor/DatapointDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-zr/src/main/assembly/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/cn/xlink/cmmqttclient/client/MqttClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1406">
+          <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/cn/xlink/cmmqttclient/client/MqttClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-Mqtt-Client/src/main/java/cn/xlink/cmmqttclient/config/MqttConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xagent-ptp-wind/src/main/assembly/assembly.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>xagent-application:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lombok-1.16.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/main/resources/mqtt.properties=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/java/cn/xlink/cmv5client/XlinkCmV5ClientTest.java=UTF-8

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: 
+Plugin-Id: ptp_wind
+Archiver-Version: Plexus Archiver
+Built-By: luoch
+Plugin-Provider: xlink
+Plugin-Version: 0.0.1
+Plugin-Class: xlink.xagent.ptp.wind.main.ZrPlugin
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_91
+

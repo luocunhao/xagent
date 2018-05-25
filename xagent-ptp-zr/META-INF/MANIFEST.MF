@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: 
+Plugin-Id: ptp-demo
+Built-By: xlink
+Plugin-Provider: xlink
+Plugin-Version: 0.0.1
+Plugin-Class: xlink.xagent.ptp.demo.main.DemoPlugin
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_101
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/tes.iml" filepath="$PROJECT_DIR$/.idea/tes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xagent-Mqtt-Client/xagent-Mqtt-Client.iml" filepath="$PROJECT_DIR$/xagent-Mqtt-Client/xagent-Mqtt-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xagent-api/xagent-api.iml" filepath="$PROJECT_DIR$/xagent-api/xagent-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xagent-application/xagent-application.iml" filepath="$PROJECT_DIR$/xagent-application/xagent-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xagent-ptp-wind/xagent-ptp-wind.iml" filepath="$PROJECT_DIR$/xagent-ptp-wind/xagent-ptp-wind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xagent-ptp-zr/xagent-ptp-zr.iml" filepath="$PROJECT_DIR$/xagent-ptp-zr/xagent-ptp-zr.iml" />
+    </modules>
+  </component>
+</project>
