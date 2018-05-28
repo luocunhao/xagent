@@ -16,6 +16,7 @@ import xlink.xagent.ptp.zr.main.ZrPlugin;
 import xlink.xagent.ptp.zr.main.DeviceConfig;
 import xlink.xagent.ptp.zr.utils.DataTransUtils;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -100,17 +101,27 @@ public class RequestQuartz implements Job {
                 //总发电时长低位
                 DPtpDatapoint dPtpDatapoint31 = new DPtpDatapoint(31, time_total_L.intValue(), XlinkDeviceDatapointType.Int16);
                 //逆变器温度
-                DPtpDatapoint dPtpDatapoint32 = new DPtpDatapoint(32, (float)(temperature.intValue()*0.1), XlinkDeviceDatapointType.Float);
+                float roundTemperature = DataTransUtils.round(temperature.intValue()*0.1f,2, BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint32 = new DPtpDatapoint(32, roundTemperature, XlinkDeviceDatapointType.Float);
                 //输入总功率
-                DPtpDatapoint dPtpDatapoint33 = new DPtpDatapoint(33, (float)(DataTransUtils.HighAndLow(input_power_H,input_power_L)*0.1), XlinkDeviceDatapointType.Float);
+                float roundInputPower = DataTransUtils.round(DataTransUtils.HighAndLow(input_power_H,input_power_L)*0.1f,
+                        2,BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint33 = new DPtpDatapoint(33, roundInputPower, XlinkDeviceDatapointType.Float);
                 //输出总功率
-                DPtpDatapoint dPtpDatapoint34 = new DPtpDatapoint(34,(float)(DataTransUtils.HighAndLow(output_power_H,output_power_L)*0.1),XlinkDeviceDatapointType.Float);
+                float roundOutputPower = DataTransUtils.round(DataTransUtils.HighAndLow(output_power_H,output_power_L)*0.1f,
+                        2,BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint34 = new DPtpDatapoint(34,roundOutputPower,XlinkDeviceDatapointType.Float);
                 //今天总发电量
-                DPtpDatapoint dPtpDatapoint35 = new DPtpDatapoint(35,(float)(DataTransUtils.HighAndLow(energy_totay_H,energy_totay_L)*0.1),XlinkDeviceDatapointType.Float);
+                float roundEnergyToday = DataTransUtils.round(DataTransUtils.HighAndLow(energy_totay_H,energy_totay_L)*0.1f,
+                        2,BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint35 = new DPtpDatapoint(35,roundEnergyToday,XlinkDeviceDatapointType.Float);
                 //历史总发电量
-                DPtpDatapoint dPtpDatapoint36 = new DPtpDatapoint(36,(float)(DataTransUtils.HighAndLow(energy_total_H,energy_total_L)*0.1),XlinkDeviceDatapointType.Float);
+                float roundEnergyTotal = DataTransUtils.round(DataTransUtils.HighAndLow(energy_total_H,energy_total_L)*0.1f,
+                        2,BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint36 = new DPtpDatapoint(36,roundEnergyTotal,XlinkDeviceDatapointType.Float);
                 //历史总工作时间
-                DPtpDatapoint dPtpDatapoint37 = new DPtpDatapoint(37,(float)(DataTransUtils.HighAndLow(time_total_H,time_total_L)*0.5),XlinkDeviceDatapointType.Float);
+                float roundTimeTotal = DataTransUtils.seconds2hour(DataTransUtils.HighAndLow(time_total_H,time_total_L)/2);
+                DPtpDatapoint dPtpDatapoint37 = new DPtpDatapoint(37,roundTimeTotal,XlinkDeviceDatapointType.Float);
                 //开关状态
                 //DPtpDatapoint dPtpDatapoint38 = new DPtpDatapoint(38,on_off,XlinkDeviceDatapointType.BoolByte);
                 map.put(0, dPtpDatapoint0);
