@@ -25,7 +25,7 @@
 		</dependency>
 		<dependency>
 		<groupId>xlink.xagent</groupId>
-		<artifactId>xagent-ptp-demo</artifactId>
+		<artifactId>xagent-ptp-zr</artifactId>
 		<version>0.0.1</version>
 	</dependency>
 		<dependency>

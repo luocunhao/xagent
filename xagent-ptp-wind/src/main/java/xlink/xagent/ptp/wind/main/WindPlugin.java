@@ -1,15 +1,15 @@
-package main;
+package xlink.xagent.ptp.wind.main;
 
-import codec.WindDecoder;
-import codec.WindEncoder;
-import domain.MacAddressIdMap;
+import xlink.xagent.ptp.wind.codec.WindDecoder;
+import xlink.xagent.ptp.wind.codec.WindEncoder;
+import xlink.xagent.ptp.wind.domain.MacAddressIdMap;
 import org.pf4j.Plugin;
 import org.pf4j.PluginWrapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import processor.BusinessLogicProcessor;
-import processor.DatapointDataHandler;
-import tcp.TcpClient;
+import xlink.xagent.ptp.wind.processor.BusinessLogicProcessor;
+import xlink.xagent.ptp.wind.processor.DatapointDataHandler;
+import xlink.xagent.ptp.wind.tcp.TcpClient;
 import xlink.cm.agent.extensions.XagentApi;
 import xlink.cm.agent.ptp.PtpCertificateType;
 import xlink.cm.agent.ptp.PtpServer;

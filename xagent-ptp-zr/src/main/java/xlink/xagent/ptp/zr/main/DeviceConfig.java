@@ -13,7 +13,7 @@ public class DeviceConfig {
     private static Map<Integer,MacSlaverIdMap> deviceMap = new HashMap<>();
     public void init(){
         deviceMap.put(1684312438,new MacSlaverIdMap("5F6D",1,"das"));
-        deviceMap.put(1684316021,new MacSlaverIdMap("13254",2,"ssf"));
+        //deviceMap.put(1684316021,new MacSlaverIdMap("13254",2,"ssf"));
     }
     public static Map<Integer,MacSlaverIdMap> getDeviceMap(){
         return deviceMap;

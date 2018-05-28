@@ -1,11 +1,11 @@
-package tcp;
+package xlink.xagent.ptp.wind.tcp;
 
-import domain.MacAddressIdMap;
+import xlink.xagent.ptp.wind.domain.MacAddressIdMap;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import main.DeviceConfig;
-import main.WindPlugin;
-import utils.StrUtil;
+import xlink.xagent.ptp.wind.main.DeviceConfig;
+import xlink.xagent.ptp.wind.main.WindPlugin;
+import xlink.xagent.ptp.wind.utils.StrUtil;
 import xlink.cm.agent.extensions.XagentApi;
 import xlink.cm.agent.ptp.dataStruture.DPtpDatapoint;
 import xlink.cm.agent.ptp.dataStruture.XlinkDeviceDatapointType;

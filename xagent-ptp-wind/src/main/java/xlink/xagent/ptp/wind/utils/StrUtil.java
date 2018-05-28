@@ -1,4 +1,4 @@
-package utils;
+package xlink.xagent.ptp.wind.utils;
 
 public class StrUtil {
 

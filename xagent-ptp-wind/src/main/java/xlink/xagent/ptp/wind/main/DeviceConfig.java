@@ -1,6 +1,6 @@
-package main;
+package xlink.xagent.ptp.wind.main;
 
-import domain.MacAddressIdMap;
+import xlink.xagent.ptp.wind.domain.MacAddressIdMap;
 
 import java.util.HashMap;
 import java.util.Map;

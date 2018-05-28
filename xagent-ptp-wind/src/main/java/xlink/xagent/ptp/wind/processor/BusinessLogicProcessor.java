@@ -1,4 +1,4 @@
-package processor;
+package xlink.xagent.ptp.wind.processor;
 
 import xlink.cm.agent.ptp.IPtpProtocolProcessor;
 import xlink.cm.agent.ptp.PtpServer;

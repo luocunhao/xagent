@@ -1,4 +1,4 @@
-package domain;
+package xlink.xagent.ptp.wind.domain;
 
 public class MacAddressIdMap {
 

@@ -1,4 +1,4 @@
-package tcp;
+package xlink.xagent.ptp.wind.tcp;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;

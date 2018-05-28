@@ -1,4 +1,4 @@
-package tcp;
+package xlink.xagent.ptp.wind.tcp;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

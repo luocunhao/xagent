@@ -1,4 +1,4 @@
-package main;
+package xlink.xagent.ptp.wind.main;
 
 public class WindConfig {
     public static String productId = "1607d4b60c3200011607d4b60c326601";

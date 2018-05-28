@@ -1,4 +1,4 @@
-package codec;
+package xlink.xagent.ptp.wind.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
