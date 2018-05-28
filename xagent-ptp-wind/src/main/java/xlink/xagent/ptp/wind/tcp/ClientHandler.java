@@ -1,15 +1,16 @@
 package xlink.xagent.ptp.wind.tcp;
-
 import xlink.xagent.ptp.wind.domain.MacAddressIdMap;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import xlink.xagent.ptp.wind.main.DeviceConfig;
 import xlink.xagent.ptp.wind.main.WindPlugin;
+import xlink.xagent.ptp.wind.utils.DataTransUtils;
 import xlink.xagent.ptp.wind.utils.StrUtil;
 import xlink.cm.agent.extensions.XagentApi;
 import xlink.cm.agent.ptp.dataStruture.DPtpDatapoint;
 import xlink.cm.agent.ptp.dataStruture.XlinkDeviceDatapointType;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -108,23 +109,26 @@ public class ClientHandler extends SimpleChannelInboundHandler<byte[]> {
         Map<Integer, DPtpDatapoint> map = new HashMap<>();
         Map<String, MacAddressIdMap> deviceMap = DeviceConfig.getDeviceMap();
         MacAddressIdMap macAddressIdMap = deviceMap.get(addressId);
+        //xagent.deviceOnline(macAddressIdMap.getDevice_id(), "");
         switch (function) {
             case "609": {
                 //运行状态
-                int status = Integer.parseInt(recv_string.split(",")[3]);
-                DPtpDatapoint dPtpDatapoint0 = new DPtpDatapoint(0, status, XlinkDeviceDatapointType.BoolByte);
+                String status = recv_string.split(",")[3];
+                DPtpDatapoint dPtpDatapoint0 = new DPtpDatapoint(0, status, XlinkDeviceDatapointType.String);
                 map.put(0, dPtpDatapoint0);
                 break;
             }
             case "416": {
                 String[] values = recv_string.split(",");
                 //功率
-                int power = Integer.parseInt(values[1]);
-                DPtpDatapoint dPtpDatapoint1 = new DPtpDatapoint(1, (float) (power * 0.1), XlinkDeviceDatapointType.Float);
+                float power = Float.parseFloat(values[1]);
+                float roundPower = DataTransUtils.round(power*0.1f,2, BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint1 = new DPtpDatapoint(1, roundPower, XlinkDeviceDatapointType.Float);
                 map.put(1, dPtpDatapoint1);
                 //发电量
-                int enegry = Integer.parseInt(values[2]);
-                DPtpDatapoint dPtpDatapoint2 = new DPtpDatapoint(2, (float) enegry, XlinkDeviceDatapointType.Float);
+                float enegry = Float.parseFloat(values[2]);
+                float roundEnegry = DataTransUtils.round(enegry,2,BigDecimal.ROUND_HALF_UP);
+                DPtpDatapoint dPtpDatapoint2 = new DPtpDatapoint(2, roundEnegry, XlinkDeviceDatapointType.Float);
                 map.put(2, dPtpDatapoint2);
                 break;
             }

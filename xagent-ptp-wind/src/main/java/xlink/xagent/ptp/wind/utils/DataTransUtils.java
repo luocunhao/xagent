@@ -1,5 +1,6 @@
 package xlink.xagent.ptp.wind.utils;
 
+import java.math.BigDecimal;
 import java.util.Stack;
 
 public class DataTransUtils {
@@ -40,6 +41,13 @@ public class DataTransUtils {
     public static int HighAndLow(Short high,Short low){
         int H = high<<16;
         return H+low;
+    }
+    public static float round(float value,int scale,int roundingModel){
+        BigDecimal bd = new BigDecimal(value);
+        bd = bd.setScale(scale,roundingModel);
+        float f = bd.floatValue();
+        bd = null;
+        return f;
     }
     public static void main(String[] args) {
         // TODO Auto-generated method stub
