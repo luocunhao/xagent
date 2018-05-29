@@ -57,6 +57,7 @@ public class RequestQuartz implements Job {
                 batchRead.addLocator("time_total_L", BaseLocator.inputRegister(slaverId, 31, DataType.TWO_BYTE_INT_SIGNED));
                 batchRead.addLocator("temperature", BaseLocator.inputRegister(slaverId, 32, DataType.TWO_BYTE_INT_SIGNED));
                 // batchRead.addLocator("on_off",BaseLocator.holdingRegister(slaverId,0,DataType.TWO_BYTE_INT_SIGNED));
+                batchRead.addLocator("power_factor",BaseLocator.holdingRegister(slaverId,5,DataType.TWO_BYTE_INT_SIGNED));
                 BatchResults<String> results = master.send(batchRead);
                 System.out.println("没有类型转换之前=========" + results.toString());
                 Short inverter_status = (Short) results.getValue("inverter_status");
@@ -79,6 +80,7 @@ public class RequestQuartz implements Job {
                 Short time_total_L = (Short) results.getValue("time_total_L");
                 Short temperature = (Short) results.getValue("temperature");
                 Short on_off = (Short) results.getValue("on_off");
+                Short power_factor = (Short)results.getValue("power_factor");
                 Map<Integer, DPtpDatapoint> map = new HashMap<>();
                 //逆变器运行状态 0:等待状态, 1:正常, 3:报 错状态
                 DPtpDatapoint dPtpDatapoint0 = new DPtpDatapoint(0, inverter_status, XlinkDeviceDatapointType.BoolByte);
@@ -134,6 +136,8 @@ public class RequestQuartz implements Job {
                 DPtpDatapoint dPtpDatapoint37 = new DPtpDatapoint(37, roundTimeTotal, XlinkDeviceDatapointType.Float);
                 //开关状态
                 //DPtpDatapoint dPtpDatapoint38 = new DPtpDatapoint(38,on_off,XlinkDeviceDatapointType.BoolByte);
+                //功率因数
+                DPtpDatapoint dPtpDatapoint39 = new DPtpDatapoint(39,power_factor.intValue(),XlinkDeviceDatapointType.UnSignedInt16);
                 map.put(0, dPtpDatapoint0);
                 //map.put(1, dPtpDatapoint1);
                 //map.put(2, dPtpDatapoint2);
@@ -159,6 +163,7 @@ public class RequestQuartz implements Job {
                 map.put(36, dPtpDatapoint36);
                 map.put(37, dPtpDatapoint37);
                 //map.put(38,dPtpDatapoint38);
+                map.put(39,dPtpDatapoint39);
                 System.out.println("results======================   " + results.toString());
                 System.out.println("keyset size :=================" + map.keySet().size());
                 xagent.activateDevice(ZrConfig.productId, macSlaverIdMap.getMac(), (byte) 0, 0, (byte) 0, 0, macSlaverIdMap.getSn(), 0, null);
