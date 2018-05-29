@@ -111,6 +111,31 @@ public class ClientHandler extends SimpleChannelInboundHandler<byte[]> {
         MacAddressIdMap macAddressIdMap = deviceMap.get(addressId);
         //xagent.deviceOnline(macAddressIdMap.getDevice_id(), "");
         switch (function) {
+            case "014":{
+                String[] strs = recv_string.split(",");
+                String b = strs[1];
+                if("3".equals(b)){
+                    //电网三相电压
+                    float three_phase_V = Float.parseFloat(strs[3]);
+                    DPtpDatapoint dPtpDatapoint3 = new DPtpDatapoint(3,three_phase_V,XlinkDeviceDatapointType.Float);
+                    map.put(3,dPtpDatapoint3);
+                }
+                break;
+            }
+            case "117":{
+                break;
+            }
+            case "219":{
+                //电网频率
+                String[] strs = recv_string.split(",");
+                float freq = Float.parseFloat(strs[4])*0.1f;
+                DPtpDatapoint dPtpDatapoint4 = new DPtpDatapoint(4,freq,XlinkDeviceDatapointType.Float);
+                map.put(4,dPtpDatapoint4);
+                break;
+            }
+            case "318":{
+                break;
+            }
             case "609": {
                 //运行状态
                 String status = recv_string.split(",")[3];
@@ -120,7 +145,7 @@ public class ClientHandler extends SimpleChannelInboundHandler<byte[]> {
             }
             case "416": {
                 String[] values = recv_string.split(",");
-                //功率
+                //瞬时发电功率
                 float power = Float.parseFloat(values[1]);
                 float roundPower = DataTransUtils.round(power*0.1f,2, BigDecimal.ROUND_HALF_UP);
                 DPtpDatapoint dPtpDatapoint1 = new DPtpDatapoint(1, roundPower, XlinkDeviceDatapointType.Float);

@@ -48,11 +48,23 @@ public class WindPlugin extends Plugin {
                     MacAddressIdMap macAddressIdMap = deviceMap.get(key);
                     xagent.activateDevice(WindConfig.productId, macAddressIdMap.getMac(), (byte) 0, 0, (byte) 0, 0, macAddressIdMap.getSn(), 0, null);
                     xagent.deviceOnline(macAddressIdMap.getDevice_id(), "");
+                    String cmdMOD = "^P"+key+"MOD";
+                    String cmdST1 = "^P"+key+"ST1";
+                    String cmdST2 = "^P"+key+"ST2";
+                    String cmdST3 = "^P"+key+"ST3";
                     String cmdST4 = "^P"+key+"ST4";
                     String cmdST6 = "^P"+key+"ST6";
+                    int cmdMODlength = cmdMOD.getBytes().length;
+                    int cmdST1length = cmdST1.getBytes().length;
+                    int cmdST2length = cmdST2.getBytes().length;
+                    int cmdST3length = cmdST3.getBytes().length;
                     int cmdST4length = cmdST4.getBytes().length;
                     int cmdST6length = cmdST6.getBytes().length;
                     try {
+                        final boolean cmdMODret = tcpClient.send(cmdMODlength, cmdST4.getBytes());
+                        final boolean cmdST1ret = tcpClient.send(cmdST1length, cmdST4.getBytes());
+                        final boolean cmdST2ret = tcpClient.send(cmdST2length, cmdST4.getBytes());
+                        final boolean cmdST3ret = tcpClient.send(cmdST3length, cmdST4.getBytes());
                         final boolean cmdST4ret = tcpClient.send(cmdST4length, cmdST4.getBytes());
                         final boolean cmdST6ret = tcpClient.send(cmdST6length, cmdST6.getBytes());
                     } catch (Exception e) {
