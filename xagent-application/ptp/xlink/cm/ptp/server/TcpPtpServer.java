@@ -47,7 +47,7 @@ public class TcpPtpServer extends DefaultPtpServer {
             this.channelMap));
 
       // Start the server.
-      f = b.bind(this.serverPort).sync();
+      b.bind(this.serverPort).sync();
   }
 
   public void close() {

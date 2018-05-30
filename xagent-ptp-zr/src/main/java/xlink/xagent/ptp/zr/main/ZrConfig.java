@@ -9,7 +9,7 @@ public class ZrConfig {
     //"3a5365a8-cdd6-4f8c-8c5f-0ae2460f72b4";
     public static int serverPort = 6666;
     public static int HOLDING_INDEX = 38;
-    public static final String serial_host = "127.0.0.1";
+    public static final String serial_host = "172.16.1.138";
     public static final int serial_port = 51108;
     public static final String mac = "215223";
     public static final int device_id = 1048086410;

@@ -1,0 +1,35 @@
+<!-- Describes the plugin archive @author Decebal Suiu @version 1.0 -->
+<assembly>
+	<id>plugin</id>
+	<formats>
+		<format>jar</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<dependencySets>
+		<dependencySet>
+			<useProjectArtifact>false</useProjectArtifact>
+			<scope>runtime</scope>
+			<outputDirectory>lib</outputDirectory>
+			<!--  增加依赖包  -->
+			 <includes>
+			    <!--  <include>${groupid}:${artifactId}</include> -->
+ 				<include>com.bgy:midea</include>	
+ 			</includes> 
+			<!--  去除依赖包  -->
+			<!-- <excludes>
+				<exclude>*</exclude>
+			</excludes> -->
+		</dependencySet>
+	</dependencySets>
+
+	<fileSets>
+		<fileSet>
+			<directory>target/plugin-classes</directory>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>src/main/resources</directory>
+			<outputDirectory>config</outputDirectory>
+		</fileSet>
+	</fileSets>
+</assembly>

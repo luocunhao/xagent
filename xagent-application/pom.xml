@@ -34,6 +34,11 @@
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
+			<groupId>xlink.xagent</groupId>
+			<artifactId>xagent-ptp-huawei</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
 			<version>${netty.version}</version>
