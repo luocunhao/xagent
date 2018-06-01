@@ -60,7 +60,8 @@
         <module>xagent-ptp-wind</module>
 		<module>xagent-ptp-wind</module>
         <module>xagent-ptp-wind</module>
-    </modules>
+		<module>xagent-ptp-huawei</module>
+	</modules>
 
 	<build>
 		<resources>
